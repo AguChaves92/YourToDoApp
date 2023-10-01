@@ -66,6 +66,7 @@ const Column = ({
             <input
               type="text"
               name="name"
+              value={taskName}
               placeholder="Nombre de la tarea"
               style={{
                 width: "80%",
